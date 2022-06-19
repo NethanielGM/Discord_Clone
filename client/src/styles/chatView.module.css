@@ -4,10 +4,12 @@
   width: 100%;
   overflow-y: scroll;
   position: relative;
+  background-color: #202225;
 }
 
 .messagesContainer {
   padding: 20px;
   padding-bottom: 100px;
   padding-top: 30px;
+
 }

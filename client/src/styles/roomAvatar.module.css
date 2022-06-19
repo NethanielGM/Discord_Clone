@@ -7,6 +7,7 @@
 }
 
 .roomAvatar::before {
+
   content: '';
   width: 17px;
   top: 20px;
@@ -22,6 +23,7 @@
 }
 
 .roomAvatar:hover::before {
+
   height: 55%;
   top: 12px;
 }
@@ -32,6 +34,7 @@
   background: var(--light-grey);
   border-radius: 100%;
   margin-bottom: 10px;
+  margin-top: 10px;
   position: relative;
   left: 12px;
   transition: var(--transition);
@@ -40,4 +43,10 @@
 
 .roomAvatarImage:hover {
   border-radius: 15px;
+}
+
+.roomAvatarimg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }

@@ -12,7 +12,7 @@ const ChatHeader = () => {
     <div className={styles.chatHeader}>
       <div className={styles.roomNameContainer}>
         <img height={20} width={20} src={at} className={styles.svg} alt='' />
-        <h3 className={styles.title}></h3>
+        <h3 className={styles.title}>username</h3>
         <div className={styles.chatHeaderStatus} id='online' />
       </div>
 
@@ -50,7 +50,7 @@ const ChatHeader = () => {
         />
       </div>
       <div className={styles.headerItem}>
-        <input type='search' placeholder='Search' />
+        <input className={styles.conversationInput} type='search' placeholder='Search' />
       </div>
       <div className={styles.headerItem}>
         <img

@@ -10,7 +10,7 @@ const ConversationList = () => {
   return (
     <div className={styles.conversations}>
       <div className={styles.conversationListTop}>
-        <input type='search' placeholder='Find or start a conversation' />
+        <input className={styles.conversationInput} type='search' placeholder='Find or start a conversation' />
       </div>
       <div className={styles.conversationsContainer}>
         <div className={styles.elementsContainer}>

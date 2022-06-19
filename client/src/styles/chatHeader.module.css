@@ -7,6 +7,18 @@
   padding: 10px;
   border-bottom: 1px solid #2022256e;
   z-index: 10;
+  background-color: #2f3136;
+  color: #dcddde;
+}
+
+.conversationInput {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+  color: #fff;
+  background: #202225;
 }
 
 .roomNameContainer {
@@ -67,6 +79,7 @@
   display: flex;
   align-items: center;
 }
+
 .separator {
   margin: 0 10px;
 }
