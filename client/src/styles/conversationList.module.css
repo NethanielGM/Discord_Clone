@@ -40,7 +40,6 @@
   border-radius: 5px;
   cursor: pointer;
   color: #dcddde;
-
   margin-bottom: 10px;
 }
 
@@ -49,7 +48,8 @@
 }
 
 .svgContainer {
-  margin-right: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .svg {
