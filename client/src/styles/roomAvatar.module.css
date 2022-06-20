@@ -23,7 +23,6 @@
 }
 
 .roomAvatar:hover::before {
-
   height: 55%;
   top: 12px;
 }

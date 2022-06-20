@@ -4,6 +4,7 @@ import RoomAvatar from './RoomAvatar'
 import avatar1 from '../assets/avatar-3.webp';
 
 const Sidebar = () => {
+
   const [channels, setChannels] = useState([{
     roomId: 1,
     avatar: avatar1
