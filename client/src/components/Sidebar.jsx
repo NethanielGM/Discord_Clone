@@ -7,15 +7,6 @@ const Sidebar = () => {
   const [channels, setChannels] = useState([{
     roomId: 1,
     avatar: avatar1
-  }, {
-    roomId: 2,
-    avatar: avatar1
-  }, {
-    roomId: 3,
-    avatar: avatar1
-  }, {
-    roomId: 4,
-    avatar: avatar1
   }])
 
   return (
