@@ -1,7 +1,5 @@
 import styles from '../styles/roomAvatar.module.css'
-
 const RoomAvatar = ({ id, avatar, name }) => {
-
   return (
     <div className={styles.wrapper} >
       <div className={styles.roomAvatar}>
@@ -16,5 +14,4 @@ const RoomAvatar = ({ id, avatar, name }) => {
     </div>
   )
 }
-
 export default RoomAvatar

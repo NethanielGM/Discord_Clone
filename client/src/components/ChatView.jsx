@@ -1,7 +1,6 @@
 import styles from '../styles/chatView.module.css'
 import ChatHeader from './ChatHeader'
 import MessageForm from './MessageForm'
-
 const ChatView = () => {
   return (
     <div className={styles.chatView}>
@@ -12,5 +11,4 @@ const ChatView = () => {
     </div>
   )
 }
-
 export default ChatView

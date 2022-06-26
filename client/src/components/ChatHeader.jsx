@@ -6,7 +6,6 @@ import help from '../assets/icons/help.svg'
 import pin from '../assets/icons/pin.svg'
 import at from '../assets/icons/at.svg'
 import styles from '../styles/chatHeader.module.css'
-
 const ChatHeader = () => {
   return (
     <div className={styles.chatHeader}>
@@ -15,8 +14,6 @@ const ChatHeader = () => {
         <h3 className={styles.title}>username</h3>
         <div className={styles.chatHeaderStatus} id='online' />
       </div>
-
-
       <div className={styles.headerIconsContainer}>
         <div className={styles.headerItem}>
           <img
@@ -73,5 +70,4 @@ const ChatHeader = () => {
     </div>
   )
 }
-
 export default ChatHeader

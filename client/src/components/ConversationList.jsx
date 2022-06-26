@@ -1,11 +1,7 @@
 import styles from '../styles/conversationList.module.css'
-import { useState } from 'react'
 import friends from '../assets/icons/friends.svg'
 import nitro from '../assets/icons/nitro.svg'
-
 const ConversationList = () => {
-  const [dms, setDms] = useState([])
-
   return (
     <div className={styles.conversations}>
       <div className={styles.conversationListTop}>
@@ -41,5 +37,4 @@ const ConversationList = () => {
     </div>
   )
 }
-
 export default ConversationList

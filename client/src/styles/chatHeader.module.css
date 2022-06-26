@@ -57,29 +57,3 @@
 .headerItem {
   margin-right: 10px;
 }
-
-.connectWallet {
-  margin-right: 10px;
-  background-color: #5a65f1;
-  padding: 8px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.connectWallet:hover {
-  background-color: #4149a9;
-}
-
-.connectedWallet {
-  margin-right: 10px;
-  background-color: #2e3136;
-  padding: 8px;
-  border-radius: 55px;
-  border: 1px solid #101113;
-  display: flex;
-  align-items: center;
-}
-
-.separator {
-  margin: 0 10px;
-}

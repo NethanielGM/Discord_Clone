@@ -4,13 +4,9 @@ import sticker from '../assets/icons/sticker.svg'
 import smiley from '../assets/icons/smiley.svg'
 import gift from '../assets/icons/gift.svg'
 import gif from '../assets/icons/gif.svg'
-
 const MessageForm = () => {
-
   return (
-    <form
-      className={styles.chatInputContainer}
-    >
+    <form className={styles.chatInputContainer}>
       <div className={styles.chatInputWrapper}>
         <div className={styles.svgContainer}>
           <img
@@ -25,7 +21,6 @@ const MessageForm = () => {
           className={styles.chatInput}
           placeholder='Message'
         />
-
         <div className={styles.svgContainer}>
           <img height={25} width={25} src={gift} className={styles.svg} />
         </div>
@@ -42,5 +37,4 @@ const MessageForm = () => {
     </form>
   )
 }
-
 export default MessageForm
